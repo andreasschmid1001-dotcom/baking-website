@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Baking Log</title>
+<title>LaFermenteria</title>
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -96,11 +96,19 @@
     color: var(--accent2); margin-bottom: 12px;
     text-shadow: 0 1px 4px rgba(0,0,0,0.3);
   }
+  .logo-mark {
+    margin-bottom: 16px;
+  }
+  .logo-icon {
+    width: 56px; height: 56px;
+    color: var(--accent2);
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.3));
+  }
   .hero h1 {
     font-family: 'Instrument Serif', Georgia, serif;
-    font-size: clamp(3em, 9vw, 5.5em);
+    font-size: clamp(2.6em, 8vw, 5em);
     font-weight: 400; line-height: 0.95;
-    letter-spacing: -0.03em; margin-bottom: 16px;
+    letter-spacing: -0.02em; margin-bottom: 16px;
     color: #fff;
     text-shadow: 0 2px 12px rgba(0,0,0,0.25);
   }
@@ -409,7 +417,16 @@
   <div class="hero-bg"><img src="images/highlights/hero.jpg" alt="Fresh baked bread"></div>
   <div class="hero-content fade-up">
     <div class="hero-eyebrow">Since 2020</div>
-    <h1>Baking<br><em>Log</em></h1>
+    <div class="logo-mark">
+      <svg class="logo-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32 6C32 6 28 16 28 26C28 32 30 38 32 42C34 38 36 32 36 26C36 16 32 6 32 6Z" fill="currentColor" opacity="0.9"/>
+        <path d="M32 42C32 42 22 28 14 24C14 24 20 34 26 40C29 43 32 44 32 44C32 44 35 43 38 40C44 34 50 24 50 24C42 28 32 42 32 42Z" fill="currentColor" opacity="0.7"/>
+        <path d="M32 44C32 44 18 34 8 32C8 32 16 40 24 44C28 46 32 47 32 47C32 47 36 46 40 44C48 40 56 32 56 32C46 34 32 44 32 44Z" fill="currentColor" opacity="0.5"/>
+        <path d="M32 47L32 58" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M28 55C30 53 32 52 32 52C32 52 34 53 36 55" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+      </svg>
+    </div>
+    <h1>La<em>Fermenteria</em></h1>
     <p class="subtitle">110 sessions &middot; 23 types &middot; 7.4 avg rating</p>
   </div>
 </div>
